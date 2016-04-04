@@ -24,10 +24,10 @@ This is as easy as installing the prerequisites:
 
 1. Open Internet Explorer *(yes, I know... not my favorite choice either but necessary)*
 2. Copy & paste the following line and navigate to it
+3. Grab a coffee (or tea) and relax! ;-)
 ```
 START http://boxstarter.org/package/nr/url?https://raw.githubusercontent.com/timmes/timmes.Boxstarter/master/timmes.Boxstarter.BasicDevMachineSetup.ps1
 ```
-3. Grab a coffee (or tea) and relax! ;-)
 
 If you do not want to run the script *as is* but make your own changes, you should clone the repository or create a [Gist](https://gist.github.com/). Afterwards replace everything after the `url?` with the new URL where your script is hosted.
 
@@ -36,12 +36,8 @@ If you do not want to run the script *as is* but make your own changes, you shou
 ## Disclaimer ##
 **THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND.**
 
-----------
-
 ## Contributing ##
 If you want to contribute to this project, simply clone the repository and send a pull request with your changes.
-
-----------
 
 ## License ##
 See the [LICENSE](LICENSE.md) file for license rights and limitations (MIT).
