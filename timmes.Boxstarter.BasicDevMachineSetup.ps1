@@ -45,28 +45,28 @@ powercfg -change -hibernate-timeout-ac 0
 choco install googlechrome
 
 # Essentials & Productivity
-choco install office365business
-choco install skype
-choco install skypeforbusiness
-choco install dropbox
-choco install 1password #password manager
-choco install balsamiqmockups3
-choco install greenshot #best screenshot tool in the world
-choco install adobereader
-choco install windirstat #disk cleanup
-choco install 7zip
+choco install office365business -y
+choco install skype -y
+choco install skypeforbusiness -y
+choco install dropbox -y
+choco install 1password -y #password manager
+choco install balsamiqmockups3 -y
+choco install greenshot -y #best screenshot tool in the world
+choco install adobereader -y
+choco install windirstat -y #disk cleanup
+choco install 7zip -y
 cinst TelnetClient -source windowsFeatures
 
 # Development
-choco install visualstudio2015community -InstallArguments "/Features:'WebTools SQL'"
-choco install visualstudiocode
-choco install notepadplusplus
-choco install fiddler4
-choco install git
-choco install sourcetree #great gui for git
+choco install visualstudio2015community -InstallArguments "/Features:'WebTools SQL'" -y
+choco install visualstudiocode -y
+choco install notepadplusplus -y
+choco install fiddler4 -y
+choco install git -y
+choco install sourcetree -y #great gui for git
 
 # Databases
-choco install mssqlserver2014express
+choco install mssqlserver2014express -y
 
 # SharePoint
 #choco install sharepointmanager2013
