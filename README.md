@@ -23,6 +23,7 @@ choco install boxstarter -y
 This is as easy as installing the prerequisites:
 
 **1st Option**
+
 1. Open Internet Explorer *(yes, I know... not my favorite choice either but necessary)*
 2. Copy & paste the following line and navigate to it
 3. Grab a coffee and relax! ;-)
@@ -31,6 +32,7 @@ START http://boxstarter.org/package/nr/url?https://raw.githubusercontent.com/tim
 ```
 
 **2nd option**
+
 1. Open the Boxstarter Shell
 2. Run the following command
 3. Grab a tea and relax! ;-)
