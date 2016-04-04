@@ -45,7 +45,7 @@ powercfg -change -hibernate-timeout-ac 0
 choco install googlechrome
 
 # Essentials & Productivity
-choco install office365business -y
+#choco install office365business -y
 choco install skype -y
 choco install skypeforbusiness -y
 choco install dropbox -y
@@ -66,7 +66,7 @@ choco install git -y
 choco install sourcetree -y #great gui for git
 
 # Databases
-choco install mssqlserver2014express -y
+#choco install mssqlserver2014express -y
 
 # SharePoint
 #choco install sharepointmanager2013
