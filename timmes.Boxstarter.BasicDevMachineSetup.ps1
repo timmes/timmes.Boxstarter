@@ -15,8 +15,8 @@ if (Test-PendingReboot) { Invoke-Reboot }
 
 # Basic setup
 Update-ExecutionPolicy Unrestricted
-Set-ExplorerOptions -showHidenFilesFoldersDrives -showFileExtensions
-Set-TaskbarSmall
+Set-WindowsExplorerOptions -EnableShowHiddenFilesFoldersDrives -EnableShowFileExtensions -EnableShowFullPathInTitleBar
+Set-TaskbarOptions -Size Small
 Enable-RemoteDesktop
 Disable-InternetExplorerESC
 Disable-UAC
