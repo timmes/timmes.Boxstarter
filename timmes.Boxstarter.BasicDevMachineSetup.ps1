@@ -58,7 +58,7 @@ choco install 7zip
 cinst TelnetClient -source windowsFeatures
 
 # Development
-choco install visualstudio2015community
+choco install visualstudio2015community -InstallArguments "/Features:'WebTools SQL'"
 choco install visualstudiocode
 choco install notepadplusplus
 choco install fiddler4
@@ -72,10 +72,8 @@ choco install mssqlserver2014express
 #choco install sharepointmanager2013
 #choco install ulsviewer
 
+# Taskbar
 Install-ChocolateyPinnedTaskBarItem "$($Boxstarter.programFiles86)\Google\Chrome\Application\chrome.exe"
-Install-ChocolateyPinnedTaskBarItem "$($Boxstarter.programFiles86)\Microsoft Visual Studio 12.0\Common7\IDE\devenv.exe"
-Install-ChocolateyPinnedTaskBarItem "$($Boxstarter.programFiles86)\Microsoft Visual Studio 12.0\Common7\IDE\devenv.exe"
-Install-ChocolateyPinnedTaskBarItem "$($Boxstarter.programFiles86)\Microsoft Visual Studio 12.0\Common7\IDE\devenv.exe"
 
 # Update Windows and reboot if necessary
 Install-WindowsUpdate -AcceptEula -GetUpdatesFromMS

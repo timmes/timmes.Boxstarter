@@ -5,16 +5,19 @@ Automating tasks is cool. It saves time and minimizes errors, at least manual er
 
 ### Prerequisites ###
 - Windows 10
-- Boxstarter
+- [Chocolatey](https://chocolatey.org)
+- [Boxstarter](http://boxstarter.org/)
 
-In order to get started with the script, you need to install Boxstarter first. This is pretty easy. Simply run the following script from your Windows PowerShell:
+In order to get started with the script, you need to install Chocolatey first. Open a PowerShell console in administrator mode and run the following two lines:
+```powershell
+Set-ExecutionPolicy Unrestricted
+(iex ((new-object net.webclient).DownloadString('https://chocolatey.org/install.ps1')))>$null 2>&1
+```
+After that it's time to install Boxstarter. Simply run the following script from your PowerShell:
 
 ```
 choco install boxstarter -y
 ```
-**You're wondering why this is working?**
-
-Windows 10 already has a *Package Manager* Manager, called [One-Get](https://github.com/OneGet/oneget), in place. With it also comes [Chocolatey](https://chocolatey.org): *"Chocolatey NuGet is a Machine Package Manager, somewhat like apt-get, but built with Windows in mind." (Quote)*
 
 ### Running the script ###
 This is as easy as installing the prerequisites:
