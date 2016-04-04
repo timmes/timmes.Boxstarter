@@ -1,7 +1,7 @@
 # timmes.Boxstarter #
 
 ### Summary ###
-Automating tasks is cool. It saves time and minimizes errors, at least manual errors. To save us (.NET developers) some time, I created this small script (inspired by @robertbird) for [Boxstarter](http://boxstarter.org/), so we can focus on more important things than manually downloading and installing our needed tools.
+Automating tasks is cool. It saves time and minimizes errors, at least manual errors. To save us (.NET developers) some time, I created this small script - inspired by @robertbird - for [Boxstarter](http://boxstarter.org/), so we can focus on more important things than manually downloading and installing our needed tools.
 
 ### Prerequisites ###
 - Windows 10
@@ -21,6 +21,7 @@ choco install boxstarter -y
 
 ### Running the script ###
 This is as easy as installing the prerequisites:
+
 1. Open Internet Explorer *(yes, I know... not my favorite choice either but necessary)*
 2. Copy & paste the following line and navigate to it
 ```
@@ -32,15 +33,15 @@ If you do not want to run the script *as is* but make your own changes, you shou
 
 ----------
 
-# Disclaimer #
+## Disclaimer ##
 **THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND.**
 
 ----------
 
-# Contributing #
+## Contributing ##
 If you want to contribute to this project, simply clone the repository and send a pull request with your changes.
 
 ----------
 
-# License #
+## License ##
 See the [LICENSE](LICENSE.md) file for license rights and limitations (MIT).
