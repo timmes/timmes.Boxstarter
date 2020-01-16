@@ -20,27 +20,16 @@ choco install boxstarter -y
 ```
 
 ### Running the script ###
-This is as easy as installing the prerequisites:
+This is as easy as installing the prerequisites. Follow these simple steps.
 
-**1st Option**
-
-1. Open Internet Explorer *(yes, I know... not my favorite choice either but necessary)*
-2. Copy & paste the following line and navigate to it
-3. Grab a coffee and relax! ;-)
-```
-START http://boxstarter.org/package/nr/url?https://raw.githubusercontent.com/timmes/timmes.Boxstarter/master/timmes.Boxstarter.BasicDevMachineSetup.ps1
-```
-
-**2nd option**
-
-1. Open the Boxstarter Shell
+1. Open the Boxstarter Shell or Powershell with elevated privileges
 2. Run the following command
 3. Grab a tea and relax! ;-)
 ```powershell
-Install-BoxstarterPackage https://raw.githubusercontent.com/timmes/timmes.Boxstarter/master/timmes.Boxstarter.BasicDevMachineSetup.ps1
+Install-BoxstarterPackage https://raw.githubusercontent.com/timmes/timmes.Boxstarter/master/BoxstarterDevFull.ps1
 ```
 
-If you do not want to run the script *as is* but make your own changes, you should clone the repository or create a [Gist](https://gist.github.com/). Afterwards replace everything after the `url?` with the new URL where your script is hosted.
+If you do not want to run the script *as is* but make your own changes, you should clone the repository or create a [Gist](https://gist.github.com/). Afterwards replace the `url?` with the new URL where your script is hosted.
 
 ----------
 
